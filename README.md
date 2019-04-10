@@ -1,12 +1,12 @@
-# This is the core implementation of the VNS blockchain explorer project.
+This is the core implementation of the VNS blockchain explorer project.
 
 ## The project is divided into three modules
-- block_scan 
-Scan the blocks, then push the parsed data out through kafka.
-- vns_contract
-Parse the normal contract transactions, currently only supports erc20 contract creation and transfer action. 
-- vns_bancor
-Parse the bancor protocol, currently only supports the contract type in the official bancor.
+### block_scan 
+   Scan the blocks, then push the parsed data out through kafka.
+### vns_contract
+   Parse the normal contract transactions, currently only supports erc20 contract creation and transfer action. 
+### vns_bancor
+   Parse the bancor protocol, currently only supports the contract type in the official bancor.
 
 ## Dependencies
 - Mysql Server
